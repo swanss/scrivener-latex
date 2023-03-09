@@ -2,6 +2,15 @@
 
 Writing a PhD thesis is convenient in scrivener (not to mention fun), but it is hard to format it later. Latex is perfect to beautify the thesis, but hard to write a thesis in without getting caught up in formating. I came up with workflow while working on my thesis to get the best of both worlds. Enjoy!
 
+Note from Sebastian: I found that the easiest way to use this workflow was to edit each of the files from the original repo with my own. To ensure that the directory doesn't become too cluttered, I always use the output option when generating a PDF, so that uneccesary files can easily be selected for deletion.
+
+Example:
+```
+./scrivener_mmd_compile.py -o TEST my-thesis.mmd | tee test.log
+```
+
+The test.log file is helpful for determining whether an error message is truly a problem or not.
+
 
 ## Running the example repository
 ### Requirements
